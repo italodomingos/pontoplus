@@ -1,0 +1,22 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: rgb(231, 231, 231);
+  height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.table thead tr th {
+  font-weight: normal;
+  border-right: 10px solid rgb(231, 231, 231);
+}
+
+.table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+.table tbody tr {
+  border-bottom: 2px solid rgb(231, 231, 231);
+}

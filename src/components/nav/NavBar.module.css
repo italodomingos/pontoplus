@@ -1,0 +1,52 @@
+.navigator {
+  background-color: #004b87;
+  padding: 1.5em;
+  text-align: center;
+}
+
+.logo a {
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.logo a:hover {
+  color: #0056b3;
+  border: 2px solid #0056b3;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+}
+.item a {
+  font-size: 1em;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 0 0.5em;
+  transition: 0.5s;
+}
+.item a:hover {
+  color: #0056b3;
+  border: 2px solid #0056b3;
+}
+
+.item button {
+  background-color: #007bff;
+  font-size: 1em;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 0 0.5em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.item button:hover {
+  color: #0056b3;
+  border: 2px solid #0056b3;
+}

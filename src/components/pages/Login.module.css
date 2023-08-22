@@ -1,0 +1,53 @@
+.formCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  width: 300px;
+
+  border-radius: 5px;
+}
+
+.formCard div h1 {
+  text-align: center;
+}
+
+.formCard div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.formCard div input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+.submitBtn {
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 2em;
+  font-size: 1em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #0056b3;
+}
+
+.containerLogin {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 60vh;
+
+  align-items: center;
+}

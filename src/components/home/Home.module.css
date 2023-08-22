@@ -1,0 +1,8 @@
+.home {
+  width: 100%;
+}
+.card {
+  display: flex;
+  align-items: center;
+  height: 50%;
+}

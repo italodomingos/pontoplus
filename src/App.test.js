@@ -1,8 +1,19 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+const pontos = [
+  {
+    horario: "14/08/2023 18:42:14",
+    aparelho: "desktop",
+    canal: "navegador",
+    modo: "Individual",
+    comentario: "saída",
+    comprovante: "Indiponivel",
+  },
+];
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+const teste = pontos.map((ponto) => {
+  return Object.keys(ponto).map((key) => {
+    console.log(ponto[key]);
+    return ponto[key];
+  });
 });
+
+console.log(teste);

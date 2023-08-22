@@ -1,0 +1,28 @@
+.header {
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.1);
+  margin: 0 0.5em;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header p {
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.header button {
+  color: white;
+  background-color: #004b87;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-right: 10px;
+}

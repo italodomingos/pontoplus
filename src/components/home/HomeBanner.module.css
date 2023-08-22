@@ -1,0 +1,14 @@
+.banner {
+  width: 100%;
+  height: 50vh;
+  background-color: #007acc;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner div {
+  margin-top: 2em;
+}

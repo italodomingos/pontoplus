@@ -1,0 +1,54 @@
+.profile {
+  padding: 10px;
+  min-width: 165px;
+}
+.profileButton {
+  padding: 5px 10px;
+  border: none;
+  background-color: inherit;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  text-align: center;
+}
+
+.profileButton svg {
+  margin: 0 5px;
+}
+.profileIcon {
+  font-size: 1.3em;
+}
+
+.dropdown {
+  list-style: none;
+  position: absolute;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  border: 2px solid rgb(231, 231, 231);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.dropdown li a {
+  margin: 5px 0;
+  padding: 5px 20px;
+  color: black;
+  transition: 0.5s;
+}
+.dropdown li a:hover {
+  color: rgb(231, 231, 231);
+}
+.dropdown li button {
+  margin: 5px 0;
+  border: none;
+  background-color: inherit;
+  color: red;
+  font-size: 1em;
+  cursor: pointer;
+}
+.dropdown li button:hover {
+  color: rgb(250, 108, 108);
+}

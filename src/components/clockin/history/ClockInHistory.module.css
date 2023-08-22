@@ -1,0 +1,20 @@
+.lineStart {
+  background-color: rgba(128, 128, 128, 0.1);
+  height: 3px;
+  margin: 20px 0.5em;
+  width: 10%;
+}
+.history {
+  display: flex;
+  align-items: center;
+}
+.history p {
+  width: 8%;
+  text-align: center;
+}
+.lineEnd {
+  background-color: rgba(128, 128, 128, 0.1);
+  height: 3px;
+  margin: 20px 0.5em;
+  width: 82%;
+}
